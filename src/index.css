@@ -1,0 +1,24 @@
+@import "tailwindcss";
+@import "@flaticon/flaticon-uicons/css/all/all";
+
+
+.Filterbtn{
+    border: 1px solid rgba(128, 128, 128, 0.58);
+    padding: 7px 15px;
+    border-radius: 40px;
+    box-shadow: 2px 2px rgba(128, 128, 128, 0.537);
+    font-weight: 600;
+    opacity: 75%;
+    cursor: pointer;
+}
+
+.active{
+    background-color: rgba(96, 96, 96, 0.414);
+    border: 1px solid;
+    display: flex;
+    opacity: 100%;
+}
+
+.active i{
+    display: block;
+}
