@@ -49,10 +49,10 @@ function OnYourMind({imagedata}) {
       </div>
       <div style={{ translate: `-${value}%` }} className="flex duration-400">
         {
-          imagedata.map((data) => (
+          imagedata?.map((data) => (
           <img
             className="w-40 cursor-pointer "
-            src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_160,h_192/${data.imageId}`}
+            src={`https://media-assets.swiggy.com/swiggy/image/upload/fl_lossy,f_auto,q_auto,w_160,h_192/${data?.imageId}`}
             alt=""
           />
         ))}
